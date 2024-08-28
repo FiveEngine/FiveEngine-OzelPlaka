@@ -30,7 +30,7 @@ AddEventHandler('baTu-plaka:komutlar', function()
     end
     local newPlate = dialog.plate
     if #newPlate < 2 or #newPlate > 8 then
-        QBCore.Functions.Notify("Plaka 2 ile 8 karakter arasında olmalıdır", "error")
+        QBCore.Functions.Notify("Plaka 1 ile 8 karakter arasında olmalıdır", "error")
         return
     end
     local oldPlate = GetVehicleNumberPlateText(vehicle)
