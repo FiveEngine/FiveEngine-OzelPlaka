@@ -1,7 +1,8 @@
 fx_version "adamant"
 game "gta5"
 author 'baTu'
-version '1.0.3'
+description 'FiveEngine Discord: https://discord.gg/e9heam9b6S'
+version '1.0.4'
 
 
 server_script {
